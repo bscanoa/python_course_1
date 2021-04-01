@@ -7,20 +7,23 @@
 #y por último los de tipo booleano que tienen valores de falso o verdadero. 
 #También soporta números complejos.
 
+variable=valor_asignado
 
+##Operadores matemáticos y comentarios.
 
-##Operdores matemáticos y comentarios.
-#x=10
-#y=2
-#resultado=x/y
-#resultado2=x%y
+x=10
+y=2
+resultado=x/y
+resultado_2=x%y
 
 ## Soporta operaciones aritmeticas básica suma (+) resta (-) multiplicación (*)
 ## división, // -> Redondea / -> Hace la división normal
 ## Residuo % -> Lo que sobra en una división. Si x=11 entonces x%y = 1.
 ## Potenciación 2**3 = 8 Es igual que dos elevado a la tres.
 
-#print (2**3)
+print(resultado)
+print(resultado_2)
+print (2**3)
 
 
 ###Condicional IF
@@ -39,4 +42,3 @@ if edad>18:
         print("Eres mayor de edad y no pagaste")
 else:
     print ("No es mayor de edad")
-
