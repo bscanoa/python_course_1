@@ -132,3 +132,31 @@ diccionario={'José': 27, 'Rafael':90,'Sara':30, 'Luis':40}
 
 print(diccionario['Rafael'])
 print(len(diccionario))
+
+# Funciones proporcionadas por Python
+# Funciones dentro del lengaje que permiten la ejecución algo en especifico.
+
+tupla_4=(2,3,4,65,6,4)
+
+# Nos da información de qué podemos hacer con las tuplas...
+# help(tupla_4)
+
+# Función Type
+
+x_1=True 
+
+# type nos dice el tipo de dato 
+print(type(x_1))
+
+# str
+# transforma los datos en cadenas
+
+numero_3=10
+num_2=20
+
+print(str(numero_3)+str(num_2))
+
+# dir
+# Metodos disponibles para una determinada variable.
+
+print (dir(tupla_4))
