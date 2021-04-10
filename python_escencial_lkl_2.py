@@ -192,10 +192,20 @@ class persona_2:
     nPiernas=0
     Cabello=True
     cCabello='Defecto'
-    
+    hambre=0
+
+    def dormir():
+        pass
+    def comer(self):
+        self.hambre=0
+
+
 class mujer:
     nombre='Defecto'
     sexo='F'
+
+    def cambiarNombre(self, nombre):
+        self.nombre=nombre
 
 class hombre:
     nombre='Defecto'
