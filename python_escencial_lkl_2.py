@@ -160,3 +160,43 @@ print(str(numero_3)+str(num_2))
 # Metodos disponibles para una determinada variable.
 
 print (dir(tupla_4))
+
+
+# Programación Orientada a Objetos
+# Todo lo que estamos viendo es un objeto pero debe tener
+# caracteristicas que responden a ese objeto.
+# Paradigma. Se pueden usar varios paradigmas para resolver problemas
+# POO
+# Clases: Para definir un objeto son necesarias las clases.
+# Se crea una clase que es una plantilla que sirve como base 
+# para el objeto
+# Objetos
+# Propiedades
+# Métodos
+
+# Clases en Python
+# Definición de clases que sirven como plantillas y en base a estas
+# se crean los objetos
+class personas:
+    #las clases no se pueden quedar vacias
+    pass #para no definir por ahora y que no genere error
+class pancho:
+    pass
+
+# Atributos en Python
+# Forma de describir las características de los objetos.
+# Se declaran en las clases
+
+class persona_2:
+    nBrazos=0
+    nPiernas=0
+    Cabello=True
+    cCabello='Defecto'
+    
+class mujer:
+    nombre='Defecto'
+    sexo='F'
+
+class hombre:
+    nombre='Defecto'
+    sexo='F'
