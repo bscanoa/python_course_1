@@ -22,7 +22,7 @@ for k,v in di.items():
     tmp.append(newt)
 
 tmp = sorted(tmp, reverse=True)
-print(tmp[:5])
+# print(tmp[:5])
 
 for v,k in tmp[:5]:
     print(k,v)
