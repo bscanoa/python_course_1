@@ -12,13 +12,17 @@ for lin in hand:
         #     dic[w] = dic[w] + 1
         # else:
         #     dic[w] = 1
-largest = -1
-theword = None
 
-for k,v in di.items() :
-    if v > largest:
-        largest = v
-        theword = k
+# x = sorted(di.items())
+# print (x[:5])
+tmp = list()
+for k,v in di.items():
+    # print(k,v)
+    newt = (v,k)
+    tmp.append(newt)
 
-print(theword, largest)
-    
+tmp = sorted(tmp, reverse=True)
+print(tmp[:5])
+
+for v,k in tmp[:5]:
+    print(k,v)
