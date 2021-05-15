@@ -10,6 +10,6 @@ for line in fh:
     	if i in lst:
         	continue
         else:
-			lst.append(i)
+            lst.append(i)
 lst.sort()
 print(lst)
