@@ -8,12 +8,12 @@ h=float(hrs)
 rat=input("Enter Rate:")
 r=float(rat)
 
-if h>40:
-    he=h-40
-    he=he*(r*1.5)
-    print((40*r)+(he))
+if h > 40:
+    he = h-40
+    he = he * (r * 1.5)
+    print((40 * r) + (he))
 else:
-    print(h*r)
+    print(h * r)
 
 # Instructor solution
 

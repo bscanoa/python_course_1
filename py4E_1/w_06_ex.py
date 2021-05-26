@@ -1,4 +1,8 @@
 big = max("Hello world")
+#Hello
+#01234
+
+print(big[4])
 print (big)
 
 # La función min busca el cáracter más pequeño o número.
@@ -105,7 +109,7 @@ print('After', count, sum, int(sum/count))
 
 print('Before')
 for value in list1:
-    if value>20:
+    if value > 20:
         print('Large number', value)
 print('After')
 
@@ -113,8 +117,9 @@ print('After')
 
 found = False
 print('Before', found)
+
 for value in list1:
-    if value==3:
+    if value == 3:
         found = True 
         break
     print (found, value)
